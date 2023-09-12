@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Cartao from "./pages/Cartao";
-import Emprestimos from "./pages/Emprestimos";
-import Seguros from "./pages/Seguros";
+import Cartao from "./pages/cartao/Cartao";
+import Emprestimos from "./pages/ep/Emprestimos";
+import Seguros from "./pages/seguros/Seguros";
 
 function AppRoutes() {
   return (
