@@ -42,8 +42,8 @@ function Select() {
   }, [selectedRegion, branches]);
 
   return (
-    <div>
-      <label htmlFor="regionSelect">Selecione uma Região:</label>
+    <div className="div">
+      <label htmlFor="regionSelect">Região:</label>
       <select
         id="regionSelect"
         value={selectedRegion}
@@ -56,7 +56,7 @@ function Select() {
         ))}
       </select>
 
-      <label htmlFor="branchSelect">Selecione uma Filial:</label>
+      <label htmlFor="branchSelect">Filial:</label>
       <select
         id="branchSelect"
         value={selectedBranch}

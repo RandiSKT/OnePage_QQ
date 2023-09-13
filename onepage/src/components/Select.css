@@ -1,19 +1,22 @@
 /* SelectRegionAndBranch.css */
+.div {
+        display: flex;
+        justify-content: center;
+}
 
-/* Estilos para o container */
-.select-container {
-    text-align: center; /* Centralizar o conteúdo horizontalmente */
-    max-width: 60px; /* Defina o tamanho máximo do container conforme necessário */
-    margin: 0 auto; /* Centralizar horizontalmente */
-  }
-  
-  /* Estilos para as caixas de seleção */
-  select {
-    width: 45%; /* Defina a largura desejada para as caixas de seleção */
+label {
+    text-size-adjust: 50px;
+    font-size: larger;
+}
+
+/* Estilos para as caixas de seleção */
+select {
+    width: 25%; /* Defina a largura desejada para as caixas de seleção */
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 14px;
     margin: 0 5px; /* Margem entre as caixas de seleção */
+    margin-bottom: 15px;
   }
   
