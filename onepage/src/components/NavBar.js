@@ -1,24 +1,27 @@
 import React from "react";
-import {Link} from "react-router-dom"
+import {NavLink} from "react-router-dom"
+import './NavBar.css'; // Certifique-se de que o caminho corresponde ao local do arquivo CSS.
 
-const NavBar = () => {
+
+
+function NavBar() {
   return (
     <div>
       <nav>
         <ul>
           <li>
-            <Link to="/">Cartão</Link>
+            <NavLink exact to="/" activeClassName="active">Cartão</NavLink>
           </li>
           <li>
-            <Link to="/emprestimos">EP</Link>
+            <NavLink to="/emprestimos" activeClassName="active">EP</NavLink>
           </li>
           <li>
-            <Link to="/seguros">Seguros</Link>
+            <NavLink to="/seguros" activeClassName="active">Seguros</NavLink>
           </li>
         </ul>
       </nav>
     </div>
   );
-};
+}
 
 export default NavBar;

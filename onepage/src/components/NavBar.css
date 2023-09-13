@@ -1,0 +1,44 @@
+/* Estilos gerais da NavBar */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centraliza verticalmente */
+    height: 80px; /* Altura da NavBar */
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    text-align: center;
+    border: 2px solid white; /* Adiciona uma borda branca aos elementos <li> */
+    border-radius: 20px;
+    background-color: #333; /* Cor de fundo da NavBar */
+  }
+  
+  /* Estilos dos botões */
+  li a {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 10px 20px;
+    display: block; /* Garante que o link ocupe todo o espaço do <li> */
+    transition: background-color 0.3s ease;
+    border-radius: 20px;
+  }
+  
+  /* Estilo do hover */
+  li a:hover {
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+    border-radius: 20px;
+  }
+  
+  li a.active {
+    background-color: rgb(13, 209, 10); /* Cor de fundo para a página ativa */
+    border-color: darkgreen; /* Cor da borda para a página ativa */
+  }

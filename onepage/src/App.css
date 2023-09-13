@@ -1,46 +1,28 @@
-/* Estilo para o fundo da página */
 body {
-  background-color: #0fc50c; /* Cor de fundo vermelha da Lojas Quero-Quero */
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+  background-color: darkgreen;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Estilo para o título centralizado */
 h1 {
+  justify-content: center;
   text-align: center;
-  color: #fff; /* Cor do texto branca */
-  padding: 20px 0; /* Espaçamento superior e inferior */
 }
 
-/* Estilo para a navegação */
-nav {
-  background-color: #0a9221; /* Cor de fundo para a barra de navegação */
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+/* Estilos para o elemento pai que centraliza horizontalmente */
+.center-horizontally {
   display: flex;
-  justify-content: center; /* Centralizar os itens horizontalmente */
+  justify-content: center;
 }
 
-li {
-  margin: 0 2px;
-  padding: 12px;
-  border: solid;
-}
-
-li a {
-  text-decoration: none;
-  color: #fff; /* Cor do texto dos links */
-  font-weight: bold;
-  padding: 10px 20px;
+/* Estilos para os botões de download */
+.download-button {
+  padding: 15px 3px;
+  font-size: 1.2rem;
+  background-color: rgb(52, 118, 234);
   border-radius: 5px;
-  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+  cursor: pointer;
+  margin: 4px;
 }
 
-li a:hover {
-  background-color: #555; /* Cor de fundo quando o mouse passa por cima */
-}
