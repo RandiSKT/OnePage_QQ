@@ -9,8 +9,8 @@ import Papa from "papaparse";
 
 const Cartao = () => {
   const [dados, setDados] = useState([]);
-  const [selectedRegion, setSelectedRegion] = useState("");
-  const [selectedBranch, setSelectedBranch] = useState("");
+  const [selectedRegion, setSelectedRegion] = useState("Noroeste");
+  const [selectedBranch, setSelectedBranch] = useState("3");
   const [metaReg, setMetaReg] = useState();
   const [realReg, setRealReg] = useState();
   const [opReg, setOpReg] = useState();

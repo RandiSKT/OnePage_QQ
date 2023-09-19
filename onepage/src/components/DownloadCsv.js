@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 
-function DownloadCsv({ title, filteredData }) {
+function DownloadCsv({ title, filteredData, indicador }) {
   const downloadFilteredCSV = () => {
     // Verifique se há dados filtrados
     if (filteredData.length === 0) {

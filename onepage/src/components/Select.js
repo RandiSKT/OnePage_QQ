@@ -4,10 +4,10 @@ import "./Select.css";
 
 function Select({ onRegionChange, onBranchChange }) {
   const [regions, setRegions] = useState([]);
-  const [selectedRegion, setSelectedRegion] = useState("");
+  const [selectedRegion, setSelectedRegion] = useState("Noroeste");
   const [branches, setBranches] = useState([]);
   const [filteredBranches, setFilteredBranches] = useState([]);
-  const [selectedBranch, setSelectedBranch] = useState("");
+  const [selectedBranch, setSelectedBranch] = useState(3);
 
 
   useEffect(() => {
@@ -48,8 +48,19 @@ function Select({ onRegionChange, onBranchChange }) {
         id="regionSelect"
         value={selectedRegion}
         onChange={(e) => {
-          setSelectedRegion(e.target.value);
-          onRegionChange(e.target.value); // Notifica o componente pai sobre a mudança de região
+          const newRegion = e.target.value;
+          setSelectedRegion(newRegion);
+          onRegionChange(newRegion); // Notifica o componente pai sobre a mudança de região
+
+          // Obtém a primeira filial da região selecionada
+          const firstBranchInRegion = branches.find(
+            (branch) => branch.REGIAO === newRegion
+          );
+
+          if (firstBranchInRegion) {
+            setSelectedBranch(firstBranchInRegion.FILIAL);
+            onBranchChange(firstBranchInRegion.FILIAL); // Notifica o componente pai sobre a mudança de filial
+          }
         }}
       >
         {regions.map((region, index) => (
