@@ -8,8 +8,7 @@ import Indicador from "../../components/Indicador.js";
 import Papa from "papaparse";
 
 const Cartao = () => {
-  const [dadosFiltrados, setDadosFiltrados] = useState([]);
-  const [dadosFiltrados2, setDadosFiltrados2] = useState([]);
+  const [dados, setDados] = useState([]);
   const [selectedRegion, setSelectedRegion] = useState("");
   const [selectedBranch, setSelectedBranch] = useState("");
   const [metaReg, setMetaReg] = useState();
@@ -33,20 +32,7 @@ const Cartao = () => {
           header: true, // Assuming the first row contains headers
           complete: function (result) {
             const data = result.data;
-            // Filtrar as linhas em que a coluna 'região' é igual a 'Noroeste' e 'Filial' é igual a '3'
-            const filtroReg = data.filter((linha) => {
-              return linha.REGIÃO === selectedRegion;
-            });
-            setDadosFiltrados(filtroReg);
-            const primeiraLinha = filtroReg[0]; // Obtém a primeira linha
-            setMetaReg(primeiraLinha.MetaReg);
-            setRealReg(primeiraLinha.RealizadoReg);
-            const countOpReg = filtroReg.reduce((count, linha) => {
-              return linha.Ativou === "Oportunidade" ? count + 1 : count;
-            }, 0);
-            setOpReg(countOpReg);
-            // 'dadosFiltrados' agora contém apenas as linhas que atendem à condição
-            console.log(dadosFiltrados);
+            setDados(data);
           },
           error: function (error) {
             console.error("Error parsing CSV:", error);
@@ -57,45 +43,49 @@ const Cartao = () => {
       }
     };
     readCSVFile();
-  }, [selectedRegion, dadosFiltrados]);
+  }, []);
 
   useEffect(() => {
-    const csvFileUrl = process.env.PUBLIC_URL + "/Ativacao.csv";
-    const readCSVFile = async () => {
-      try {
-        const response = await fetch(csvFileUrl);
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        const csvText = await response.text();
-        // Parse the CSV text using PapaParse
-        Papa.parse(csvText, {
-          header: true, // Assuming the first row contains headers
-          complete: function (result) {
-            const data = result.data;
-            // Filtrar as linhas em que a coluna 'região' é igual a 'Noroeste' e 'Filial' é igual a '3'
-            const filtroFilial = data.filter((linha) => {
-              return linha.FILIAL === selectedBranch;
-            });
-            setDadosFiltrados2(filtroFilial);
-            const primeiraLinha = filtroFilial[0]; // Obtém a primeira linha
-            setMetaFilial(primeiraLinha['Meta']);
-            setRealFilial(primeiraLinha.Realizado);
-            const countOpFilial = filtroFilial.reduce((count, linha) => {
-              return linha.Ativou === "Oportunidade" ? count + 1 : count;
-            }, 0);
-            setOpFilial(countOpFilial);
-          },
-          error: function (error) {
-            console.error("Error parsing CSV:", error);
-          },
-        });
-      } catch (error) {
-        console.error("Error:", error);
-      }
-    };
-    readCSVFile();
-  }, [selectedBranch, dadosFiltrados2]);
+    // Filtrar os dados conforme a região e a filial selecionada
+    const filtroReg = dados.filter((linha) => {
+      return linha.REGIÃO === selectedRegion;
+    });
+
+    const filtroFilial = dados.filter((linha) => {
+      return linha.FILIAL === selectedBranch;
+    });
+
+    // Atualizar os estados com os resultados
+    if (filtroReg.length > 0) {
+      const primeiraLinhaReg = filtroReg[0];
+      setMetaReg(primeiraLinhaReg.MetaReg);
+      setRealReg(primeiraLinhaReg.RealizadoReg);
+      const countOpReg = filtroReg.reduce((count, linha) => {
+        return linha.Ativou === "Oportunidade" ? count + 1 : count;
+      }, 0);
+      setOpReg(countOpReg);
+    } else {
+      // Define os estados como vazios se não houver dados para a região selecionada
+      setMetaReg("");
+      setRealReg("");
+      setOpReg(0);
+    }
+
+    if (filtroFilial.length > 0) {
+      const primeiraLinhaFilial = filtroFilial[0];
+      setMetaFilial(primeiraLinhaFilial['Meta']);
+      setRealFilial(primeiraLinhaFilial.Realizado);
+      const countOpFilial = filtroFilial.reduce((count, linha) => {
+        return linha.Ativou === "Oportunidade" ? count + 1 : count;
+      }, 0);
+      setOpFilial(countOpFilial);
+    } else {
+      // Define os estados como vazios se não houver dados para a filial selecionada
+      setMetaFilial("");
+      setRealFilial("");
+      setOpFilial(0);
+    }
+  }, [selectedRegion, selectedBranch, dados]);
 
   const handleRegionChange = (region) => {
     setSelectedRegion(region);
@@ -129,12 +119,12 @@ const Cartao = () => {
         />
         <div className="center-horizontally">
           <DownloadCsv
-            filteredData={dadosFiltrados}
+            filteredData={dados.filter((linha) => linha.REGIÃO === selectedRegion)}
             title="Baixar Oportunidades da Região"
           />
           <DownloadCsv
             title="Baixar Oportunidades da Filial"
-            filteredData={dadosFiltrados2}
+            filteredData={dados.filter((linha) => linha.FILIAL === selectedBranch)}
           />
         </div>
       </div>
