@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./ProgressBar.css"
 
-function ProgressBar({ title, current, goal }) {
+function ProgressBar({ title, current, goal, oportunities }) {
   const percentage = (current / goal) * 100;
   const progressBarWidth = percentage <= 100 ? `${percentage}%` : "100%";
 
@@ -19,6 +19,7 @@ function ProgressBar({ title, current, goal }) {
         <p><strong>{`Meta: ${goal}`}</strong></p>
         <p><strong>{`Concluído: ${current}`}</strong></p>
         <p><strong>{`Faltam: ${goal - current}`}</strong></p>
+        <p><strong>{`Oportunidades: ${oportunities}`}</strong></p>
       </div>
     </div>
   );

@@ -26,3 +26,13 @@ h1 {
   margin: 4px;
 }
 
+/* Dashboard.css */
+
+.dashboard {
+  background-color: #f2f2f2; /* Fundo cinza claro */
+  border-radius: 10px; /* Borda arredondada */
+  padding: 20px; /* Espaçamento interno para o conteúdo */
+  max-width: 800px; /* Largura máxima da div */
+  margin: 0 auto; /* Centralizar horizontalmente */
+  border: dashed;
+}

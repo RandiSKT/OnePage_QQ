@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Papa from "papaparse";
-import "./Select.css"
-function Select() {
+import "./Select.css";
+
+function Select({ onRegionChange, onBranchChange }) {
   const [regions, setRegions] = useState([]);
   const [selectedRegion, setSelectedRegion] = useState("");
   const [branches, setBranches] = useState([]);
@@ -35,9 +36,7 @@ function Select() {
     );
     setFilteredBranches(filtered);
     if (filtered.length > 0) {
-      setSelectedBranch(
-        filtered[0].REGIAO + "-" + filtered[0].NOME_FILIAL
-      ); // Define a primeira filial como selecionada inicialmente
+      setSelectedBranch(filtered[0].REGIAO); // Define a primeira filial como selecionada inicialmente
     }
   }, [selectedRegion, branches]);
 
@@ -47,7 +46,10 @@ function Select() {
       <select
         id="regionSelect"
         value={selectedRegion}
-        onChange={(e) => setSelectedRegion(e.target.value)}
+        onChange={(e) => {
+          setSelectedRegion(e.target.value);
+          onRegionChange(e.target.value); // Notifica o componente pai sobre a mudança de região
+        }}
       >
         {regions.map((region, index) => (
           <option key={index} value={region}>
@@ -60,14 +62,14 @@ function Select() {
       <select
         id="branchSelect"
         value={selectedBranch}
-        onChange={(e) => setSelectedBranch(e.target.value)}
+        onChange={(e) => {
+          setSelectedBranch(e.target.value);
+          onBranchChange(e.target.value); // Notifica o componente pai sobre a mudança de filial
+        }}
       >
         {filteredBranches.map((branch, index) => (
-          <option
-            key={index}
-            value={branch.FILIAL + "-" + branch.NOME_FILIAL}
-          >
-            {branch.FILIAL + "-" + branch.NOME_FILIAL}
+          <option key={index} value={branch.FILIAL}>
+            {branch.FILIAL}
           </option>
         ))}
       </select>

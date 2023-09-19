@@ -1,28 +1,34 @@
 import React from "react";
 import "../App.css";
 
-function DownloadCsv({ title }) {
-  const downloadCSV = () => {
-    // Criar os dados CSV (substitua isso com os dados da sua base)
-    const csvData = "Nome,Idade\nJoão,30\nMaria,25\nCarlos,40";
+function DownloadCsv({ title, filteredData }) {
+  const downloadFilteredCSV = () => {
+    // Verifique se há dados filtrados
+    if (filteredData.length === 0) {
+      console.warn("Nenhum dado filtrado para baixar.");
+      return;
+    }
 
-    // Criar um objeto Blob para representar o arquivo CSV
-    const blob = new Blob([csvData], { type: "text/csv" });
+    // Crie um CSV a partir dos dados filtrados
+    const csvData = "FILIAL;DT_CADASTRO;CONTA;Ativou;Tempo;REGIÃO\n" + filteredData.map((linha) => `${linha.FILIAL};${linha.DT_CADASTRO};${linha.CONTA};${linha.Ativou};${linha.Tempo};${linha.REGIÃO}`).join("\n");
 
-    // Criar um URL temporário para o Blob
+    // Crie um objeto Blob para representar o arquivo CSV
+    const blob = new Blob([csvData], { type: "text/csv;charset=utf-8;" });
+
+    // Crie um URL temporário para o Blob
     const url = window.URL.createObjectURL(blob);
 
-    // Criar um link de download
+    // Crie um link de download
     const link = document.createElement("a");
     link.href = url;
-    link.setAttribute("download", "dados.csv");
+    link.setAttribute("download", "OportunidadesRegiao.csv");
 
-    // Simular um clique no link para iniciar o download
+    // Simule um clique no link para iniciar o download
     link.click();
   };
 
   return (
-      <button onClick={downloadCSV} className="download-button">
+      <button onClick={downloadFilteredCSV} className="download-button">
         {title}
       </button>
   );

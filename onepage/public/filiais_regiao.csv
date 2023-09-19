@@ -1,575 +1,575 @@
-FILIAL;NOME_FILIAL;REGIAO
-3;SANTO CRISTO - CENTRO;Noroeste
-4;CERRO LARGO - CENTRO;Miss�es
-5;C�NDIDO GOD�I - CENTRO;Noroeste
-7;PORTO XAVIER - CENTRO HISTORICO;Noroeste
-8;TUCUNDUVA - CENTRO;Noroeste
-9;TUPARENDI - SEDE;Noroeste
-10;S�O PAULO DAS� MISS�ES - CENTRO;Noroeste
-11;GUARANI DAS MISS�ES - CENTRO;Miss�es
-12;CRISSIUMAL - CENTRO;Noroeste
-13;S�O BORJA - GENERAL MARQUES;Fronteira
-14;SANTA ROSA - BUENOS AIRES;Noroeste
-15;HORIZONTINA - CENTRO;Noroeste
-16;TR�S PASSOS - CENTRO;Noroeste
-17;BOA VISTA DO BURIC� - CENTRO;Noroeste
-18;CONSTANTINA - CENTRO;Norte
-19;TENENTE PORTELA -  CENTRO;Noroeste
-20;IJU� - TIRADENTES;Miss�es
-21;SANTA ROSA - BORGES;Noroeste
-22;S�O LUIZ GONZAGA - CENTRO;Miss�es
-23;TR�S DE MAIO - CENTRO;Noroeste
-24;SANTO �NGELO - MARECHAL FLORIANO;Miss�es
-25;PALMEIRA DAS MISS�ES - CENTRO;Norte
-26;SANTO AUGUSTO - CENTRO;Noroeste
-27;N�O-ME-TOQUE - CENTRO;Norte
-29;GIRU� - CENTRO;Miss�es
-30;CRUZ ALTA - PINHEIRO MACHADO;Miss�es
-31;SARANDI - PARQUE INDUSTRIAL IV;Norte
-34;CAMPINA DAS MISS�ES - CENTRO;Noroeste
-35;TAPERA -  CENTRO;Miss�es
-36;ITAQUI - PRA�A MARECHAL;Fronteira
-37;FREDERICO WESTPHALEN - CENTRO;Noroeste
-38;DR. MAUR�CIO CARDOSO - CENTRO;Noroeste
-39;IJU� - COM�RCIO;Miss�es
-40;CONC�RDIA - ORESTES FARINA;Chapec�
-41;S�O MARTINHO - CENTRO;Noroeste
-43;URUGUAIANA - SANTANA;Fronteira
-44;ALEGRETE - ANDRADAS;Fronteira
-45;SANTIAGO - NICOLA;Centro
-46;SANTO �NGELO - RIBAS;Miss�es
-47;URUGUAIANA - FLORES DA CUNHA;Fronteira
-48;CHAPEC� - GENERAL OS�RIO;Chapec�
-49;SANTANA DO LIVRAMENTO - VASCO ALVES;Fronteira
-50;ROS�RIO DO SUL� -  VIA F�RREA;Fronteira
-51;S�O GABRIEL - CORONEL SOARES;Centro
-52;PANAMBI - CENTRO;Miss�es
-53;ERECHIM - 15 DE NOVEMBRO;Norte
-55;GRAVATA� - JOS� LOUREIRO;Grande Poa
-56;NOVO HAMBURGO - CENTRO;Sinos-Litoral
-58;HUMAIT� - CENTRO HISTORICO ;Noroeste
-59;SANTA MARIA - ACAMPAMENTO;Centro
-60;AJURICABA - CENTRO;Miss�es
-61;BOSSOROCA - CENTRO;Miss�es
-62;AUGUSTO PESTANA - CENTRO;Miss�es
-64;SANTA MARIA - MEDIANEIRA;Centro
-65;SANTANA DO LIVRAMENTO - ANDRADAS;Fronteira
-66;GRAVATA� - PARADA 79;Grande Poa
-68;PORTO LUCENA - CENTRO;Noroeste
-69;JAGUARI - CENTRO;Centro
-71;SANTA B�RBARA DO SUL - CENTRO;Miss�es
-72;CRUZ ALTA - GENERAL OS�RIO;Miss�es
-73;PASSO FUNDO - AVENIDA BRASIL;Norte
-75;TAPEJARA - CENTRO - RS;Norte
-76;IBIRUB� - CENTRO;Miss�es
-78;PAROB� - ODORICO MOSMANN;Sinos-Litoral
-80;CATU�PE - CENTRO;Miss�es
-81;CAMAQU� - J�LIO DE CASTILHOS;Sul
-82;SAPIRANGA - JO�O CORR�A;Sinos-Litoral
-83;MARAU - CENTRO;Norte
-84;CAMPO BOM - BRASIL;Sinos-Litoral
-85;RIO GRANDE - 24 DE MAIO;Sul
-86;DOM PEDRITO -  GETULIO VARGAS;Fronteira
-88;PELOTAS - PRA�A VINTE;Sul
-89;TAQUARA - GUILHERME LAHM;Sinos-Litoral
-90;ITAQUI - 20 DE SETEMBRO;Fronteira
-92;SANTIAGO - TITO;Centro
-93;BAG� - 7 DE SETEMBRO;Sul
-94;CARAZINHO - FLORES DA CUNHA;Norte
-95;TUPANCIRET� - CENTRO;Centro
-97;GUA�BA - S�O JOS�;Grande Poa
-98;FARROUPILHA - BAR�O DO RIO BRANCO;Serra
-99;MONTENEGRO - OSVALDO ARANHA;Dos Vales
-101;S�O SEBASTI�O DO CA� - CENTRO;Dos Vales
-102;BENTO GON�ALVES - OSVALDO;Lajeado
-103;CANGU�U - GENERAL OSORIO;Sul
-104;SANTA MARIA - PATRONATO;Centro
-105;NOVA HARTZ - DAS ROSAS;Sinos-Litoral
-106;EST�NCIA VELHA - CENTRO;Sinos-Litoral
-107;VIAM�O - AM�RICO VESP�CIO;Grande Poa
-108;S�O LOUREN�O DO SUL� - CENTRO;Sul
-109;CANOAS - CAL�AD�O;Grande Poa
-110;CACHOEIRINHA- VILA BOM PRINCIPIO;Grande Poa
-111;OS�RIO - CENTRO;Sinos-Litoral
-112;ALEGRETE - ANDRADAS;Fronteira
-113;TRAMANDA� - FERNANDO BASTOS;Sinos-Litoral
-114;S�O SEP� - 7 DE SETEMBRO;Centro
-115;CA�APAVA DO SUL - CENTRO;Centro
-117;S�O LEOPOLDO��- INDEPENDENCIA;Sinos-Litoral
-118;PORT�O� - CENTRO;Sinos-Litoral
-120;CACEQUI - CENTRO;Fronteira
-121;S�O FRANCISCO DE ASSIS - CENTRO;Fronteira
-122;PASSO FUNDO - GENERAL NETTO;Norte
-123;CACHOEIRA DO SUL - J�LIO DE CASTILHOS;Centro
-124;CAP�O DA CANOA - PARAGUASS�;Sinos-Litoral
-126;GARIBALDI - CENTRO;Lajeado
-127;LAJEADO - BENJAMIN CONSTANT;Lajeado
-128;ESPUMOSO - CENTRO;Miss�es
-129;STO. ANT�NIO DA PATRULHA - CENTRO;Sinos-Litoral
-130;RESTINGA SECA - CENTRO;Centro
-131;NOVA PRATA - CENTRO;Lajeado
-132;NOVA BASSANO - CENTRO;Lajeado
-133;S�O PEDRO DO SUL - CENTRO;Centro
-134;S�O FRANCISCO DE PAULA - CENTRO;Serra
-135;TORRES - CENTRO;Criciuma
-136;NOVA PETR�POLIS - CENTRO;Serra
-137;SANTA CRUZ DO SUL - FERNANDO ABOTT;Dos Vales
-138;VEN�NCIO AIRES -  CENTRO;Dos Vales
-139;LAJEADO - ALBERTO PASQUALINI;Lajeado
-140;ESTRELA - CENTRO;Lajeado
-141;CACHOEIRA DO SUL  - PRA�A H. REZENDE  ;Centro
-142;CANDEL�RIA - CENTRO;Centro
-143;SINIMB� - CENTRO;Dos Vales
-144;VERA CRUZ - CENTRO;Dos Vales
-145;TAQUARI - CENTRO;Dos Vales
-146;BUTI� - CENTRO;Dos Vales
-147;S�O JER�NIMO - CENTRO;Dos Vales
-148;CHARQUEADAS - CENTRO;Dos Vales
-149;TRIUNFO - VILA OLARIA;Dos Vales
-151;MINAS DO LE�O - CENTRO;Dos Vales
-152;PANTANO GRANDE - CENTRO;Dos Vales
-153;AGUDO - CENTRO;Centro
-154;SANTA CRUZ DO SUL - TUNEL VERDE;Dos Vales
-155;ARROIO DO MEIO - CENTRO;Lajeado
-156;ENCRUZILHADA DO SUL - CENTRO;Dos Vales
-159;VEN�NCIO AIRES - OSVALDO ARANHA;Dos Vales
-160;ENCANTADO - CENTRO;Lajeado
-161;TEUT�NIA -  CANABARRO;Lajeado
-166;BENTO GON�ALVES - RIO BRANCO;Lajeado
-167;FARROUPILHA - CORONEL PENA;Serra
-169;IMB� - CENTRO;Sinos-Litoral
-170;S�O VICENTE DO SUL - CENTRO;Centro
-171;SANTO ANT�NIO DAS MISS�ES - CENTRO;Miss�es
-172;QUARA� - CENTRO;Fronteira
-173;TRAMANDA� - DEP�SITO;Sinos-Litoral
-174;RIO PARDO - CENTRO;Dos Vales
-175;SAPIRANGA - ASSISTEC;Sinos-Litoral
-176;�SANTO CRISTO - ASSISTEC;Noroeste
-177;URUGUAIANA - DEP�SITO;Fronteira
-178;VACARIA - JULHO DE CASTILHOS;Serra
-179;IVOTI - CENTRO;Serra
-180;PIRATINI - CENTRO;Sul
-181;SANTA CRUZ DO SUL - ERNESTO ALVES;Dos Vales
-182;PELOTAS - 7 DE SETEMBRO;Sul
-183;CAXIAS DO SUL - PRA�A DANTE;Serra
-184;SOLEDADE - CENTRO;Lajeado
-185;CANELA - J�LIO DE CASTILHOS;Serra
-186;ROQUE GONZALES - CENTRO;Miss�es
-187;SAPUCAIA DO SUL - CORONEL SERAFIM;Grande Poa
-188;PINHEIRO MACHADO -  CENTRO;Sul
-189;TR�S COROAS - CENTRO;Serra
-190;BAG� - GENERAL NETO;Sul
-191;JAGUAR�O - CENTRO;Sul
-192;ROLANTE - CENTRO;Sinos-Litoral
-193;CAXIAS DO SUL - MARECHAL;Serra
-194;J�LIO DE CASTILHOS - CENTRO;Centro
-195;BAG� - SANTA TECLA;Sul
-196;GET�LIO VARGAS - CENTRO;Norte
-197;ERECHIM - VIADUTO;Norte
-198;FLORES DA CUNHA - CENTRO;Serra
-199;GUAPOR� - CENTRO;Lajeado
-201;NOVO HAMBURGO - CANUDOS ;Sinos-Litoral
-202;DOIS IRM�OS - CENTRO;Serra
-204;CAXIAS DO SUL - DEP�SITO PINHEIRO MACHADO;Serra
-205;ALVORADA - BELA VISTA;Grande Poa
-206;CAXIAS DO SUL  - S�O JOS�;Serra
-207;MARAVILHA - CENTRO;Chapec�
-208;XAXIM - CENTRO;Chapec�
-209;IGREJINHA -CENTRO;Serra
-213;SANANDUVA - CENTRO;Norte
-215;SANTA VIT�RIA DO PALMAR - CENTRO;Sul
-216;SOBRADINHO - CENTRO;Centro
-217;ARROIO DO TIGRE - CENTRO;Centro
-218;S�O MARCOS - CENTRO;Serra
-219;RIO GRANDE - GENERAL OS�RIO;Sul
-220;XANXERE - CENTRO;Chapec�
-221;NONOAI - CENTRO;Norte
-222;CA�ADOR - BAR�O DO RIO BRANCO;Lages
-223;LAGOA VERMELHA - CENTRO;Norte
-224;PASSO FUNDO - VERA CRUZ;Norte
-225;PINHALZINHO - CENTRO;Chapec�
-226;SANTA MARIA - CAMOBI;Centro
-227;CHAPEC� - NEREU RAMOS;Chapec�
-229;CANOAS - ARAGUAIA;Grande Poa
-230;CANOAS;Grande Poa
-231;VERAN�POLIS - CENTRO;Lajeado
-232;PATO BRANCO - TUPI;Pato Branco
-233;UNI�O DA VIT�RIA - PROFA. AMAZILIA;Ponta Grossa
-234;CAMPOS NOVOS - CENTRO;Lages
-235;S�O LOUREN�O DO OESTE - CENTRO;Chapec�
-236;VIDEIRA -  CENTRO;Lages
-238;TOLEDO -  ALMIRANTE BARROSO;Cascavel
-239;CASCAVEL - AVENIDA BRASIL;Cascavel
-240;CORONEL VIVIDA - CENTRO;Pato Branco
-241;RONDA ALTA - CENTRO;Norte
-244;S�O JOAQUIM - CENTRO;Lages
-245;CAPANEMA - CENTRO;Pato Branco
-246;FRAIBURGO - CENTRO;Lages
-247;PEDRO OS�RIO - CENTRO;Sul
-248;QUEDAS DO IGUA�U - CENTRO;Pato Branco
-249;CANOINHAS - CAETANO COSTA;Blumenau
-250;LAGES - CORAL;Lages
-252;OTAC�LIO COSTA - PINHEIROS ;Lages
-253;JOA�ABA - CENTRO;Lages
-255;S�O LEOPOLDO - MELLO;Sinos-Litoral
-256;AMP�RE - CENTRO;Pato Branco
-257;GRAMADO - FLORESTA;Serra
-258;PORTO ALEGRE- ASSIS BRASIL;Grande Poa
-259;VIAM�O - SANTA IZABEL;Grande Poa
-260;GRAVATA� - VILA BRANCA;Grande Poa
-261;ROS�RIO DO SUL� - CANABARRO;Fronteira
-262;PORTO ALEGRE- EDGAR PIRES;Grande Poa
-263;PORTO ALEGRE- AZENHA;Grande Poa
-264;PORTO ALEGRE- ALBERTO BINS;Grande Poa
-265;ARROIO GRANDE - CENTRO;Sul
-266;PORTO ALEGRE- PROT�SIO ALVES;Grande Poa
-267;ESTEIO - PADRE FELIPE;Grande Poa
-268;LAGES -  CORONEL C�RDOVA;Lages
-269;MAFRA - FELIPE SCHMIDT;Blumenau
-270;TAPES - CENTRO;Sul
-271;ALEGRETE - DEP�SITO;Fronteira
-272;ARVOREZINHA - CENTRO;Lajeado
-273;S�O BENTO DO SUL - ARGOLO;Blumenau
-274;PALMAS - CENTRO;Pato Branco
-275;S�O MIGUEL DO OESTE - CENTRO;Chapec�
-276;TAI� -  CENTRO;Blumenau
-277;MONTENEGRO - DEP�SITO;Dos Vales
-278;CARLOS BARBOSA - CENTRO;Lajeado
-280;CAMPO NOVO - CENTRO;Noroeste
-281;CHAPEC� - EFAPI;Chapec�
-282;INDAIAL - NA��ES;Blumenau
-283;CURITIBANOS - CENTRO;Lages
-284;CAXIAS DO SUL - NOSSA SENHORA ;Serra
-285;PALMARES DO SUL - CENTRO;Sinos-Litoral
-286;CARAZINHO - GL�RIA;Norte
-287;S�O GABRIEL - DUQUE DE CAXIAS;Centro
-288;SANTA ROSA - DEP�SITO;Noroeste
-289;ANT�NIO PRADO - CENTRO;Serra
-290;CORREIA PINTO - CENTRO;Lages
-291;PELOTAS - TR�S VENDAS;Sul
-292;FONTOURA XAVIER - CENTRO;Lajeado
-293;DOM FELICIANO - CENTRO;Sul
-294;ITUPORANGA - CENTRO;Blumenau
-295;SANTA CRUZ DO SUL - ECOL;Dos Vales
-296;PASSO FUNDO - BOQUEIR�O;Norte
-297;ERECHIM - SIGNOR;Norte
-298;LAJEADO - DEP�SITO;Lajeado
-299;PORTO ALEGRE- OTTO;Grande Poa
-300;BAG� - SISTEMA;Sul
-301;SAPUCAIA DO SUL - CAMBUIM;Grande Poa
-302;GRAVATA� - PARQUE DOS ANJOS;Grande Poa
-303;SANTA MARIA - HELVIO BASSO;Centro
-304;SANTA MARIA - DEP�SITO;Centro
-305;CARAZINHO - DEP�SITO;Norte
-306;BOM JESUS - CENTRO;Serra
-307;S�O LEOPOLDO - SCHARLAU;Sinos-Litoral
-308;SEBERI - CENTRO;Noroeste
-309;URUGUAIANA - SETEMBRINO;Fronteira
-310;ROCA SALES - CENTRO;Lajeado
-311;PAVERAMA - CENTRO;Lajeado
-312;SANTA ROSA - FLORES DA CUNHA;Noroeste
-313;SALTO DO JACU� - CENTRO;Centro
-314;FELIZ - CENTRO;Serra
-315;S�O JOS� DO OURO - CENTRO;Norte
-316;ENTRE-IJU�S - CENTRO;Miss�es
-317;ALVORADA - JARDIM ALGARVE;Grande Poa
-318;DION�SIO CERQUEIRA - CENTRO;Chapec�
-319;CAXIAS DO SUL - VINTE DE SETEMBRO;Serra
-320;SERAFINA CORR�A - CENTRO;Lajeado
-321;ANTA GORDA - CENTRO;Lajeado
-322;BARROS CASSAL - CENTRO;Dos Vales
-323;PLANALTO - CENTRO - RS;Norte
-324;S�O MIGUEL DAS MISS�ES - CENTRO;Miss�es
-325;PASSO FUNDO - PRESIDENTE VARGAS;Norte
-326;OS�RIO - DEP�SITO;Sinos-Litoral
-327;PATO BRANCO - CRISTO REI;Pato Branco
-328;SANTO ANT�NIO DO SUDOESTE - CENTRO;Pato Branco
-329;SANTA HELENA - CENTRO;Cascavel
-330;CORB�LIA - CENTRO;Cascavel
-331;MANOEL VIANA - CENTRO;Fronteira
-333;ITAQUI - DEP�SITO;Fronteira
-334;TR�S CACHOEIRAS - CENTRO;Criciuma
-335;CANOAS - MATHIAS VELHO;Grande Poa
-336;SANTA MARIA - PINHEIRO MACHADO;Centro
-337;ARARANGU� - SETE DE SETEMBRO;Criciuma
-338;TERRA DE AREIA - CENTRO;Criciuma
-339;CORONEL FREITAS - CENTRO;Chapec�
-340;VACARIA - MOREIRA PAZ;Serra
-341;S�O JOS� DO NORTE - CENTRO;Sul
-342;UBIRAT� - CENTRO;Cascavel
-343;FARROUPILHA - PINHEIRO MACHADO;Serra
-344;S�O BORJA - CORONEL APAR�CIO MARIENSE;Fronteira
-345;FRANCISCO BELTR�O - AV. PORTO ALEGRE;Pato Branco
-346;FAXINAL DO SOTURNO - CENTRO;Centro
-347;SANTANA DO LIVRAMENTO - DEP�SITO;Fronteira
-349;GUA�BA - AD�O FOQUES;Grande Poa
-350;REALEZA - CENTRO;Pato Branco
-351;SANTANA DA BOA VISTA - CENTRO;Sul
-352;S�O LUDGERO - CENTRO;Criciuma
-353;CAND�I - CENTRO;Pato Branco
-354;PINH�O - CENTRO;Pato Branco
-355;PARA� - CENTRO;Lajeado
-356;MARMELEIRO - CENTRO;Pato Branco
-357;DOIS VIZINHOS - CENTRO;Pato Branco
-358;MOSTARDAS - CENTRO;Sinos-Litoral
-359;LAGES - SAGRADO CORA��O;Lages
-360;CANOAS - GUAJUVIRAS;Grande Poa
-361;RIO GRANDE - SATURNINO DE BRITO;Sul
-362;GUA�RA -  CENTRO;Cascavel
-363;PAPANDUVA - CENTRO;Blumenau
-364;AMETISTA DO SUL - CENTRO;Norte
-365;POUSO REDONDO - CENTRO;Blumenau
-366;CAIBAT� - CENTRO;Miss�es
-367;MANGUEIRINHA - CENTRO;Pato Branco
-368;CLEVEL�NDIA - CENTRO;Pato Branco
-369;RIO DO SUL - 7 DE SETEMBRO;Blumenau
-370;SALTO DO LONTRA - CENTRO;Pato Branco
-371;PALMITINHO - SANTA TEREZINHA ;Noroeste
-372;MARECHAL C�NDIDO RONDON - CENTRO;Cascavel
-373;ARROIO DO SAL - CENTRO;Criciuma
-374;ALECRIM - CENTRO;Noroeste
-375;GENERAL C�MARA - CENTRO;Dos Vales
-376;ORLEANS - CENTRO;Criciuma
-377;FAXINAL DOS GUEDES - CENTRO;Chapec�
-378;S�O JOS� DO CEDRO - CENTRO;Chapec�
-379;CORONEL BICACO - CENTRO;Noroeste
-380;GUARAMIRIM - CENTRO;Blumenau
-381;CANTAGALO - CENTRO;Pato Branco
-382;CAXIAS DO SUL - KAYSER;Serra
-383;SANTA CRUZ DO SUL - DEP�SITO;Dos Vales
-385;SANTO �NGELO - PIPPI;Miss�es
-386;CRUZEIRO DO OESTE - CENTRO;Umuarama
-387;NOVA TRENTO - CENTRO;Blumenau
-388;SAPIRANGA - S�O LUIZ;Sinos-Litoral
-389;RODEIO BONITO - CENTRO;Norte
-390;AGROL�NDIA - CENTRO;Blumenau
-391;ASSIS CHATEAUBRIAND - CENTRO;Cascavel
-393;PELOTAS - FRAGATA;Sul
-394;ALT�NIA - CENTRO;Umuarama
-396;ITAPEJARA DO OESTE - CENTRO;Pato Branco
-397;CHAPADA - CENTRO;Norte
-398;CONDOR - CENTRO;Miss�es
-399;RODEIO - CENTRO;Blumenau
-400;CORUP� - CENTRO;Blumenau
-401;NOVA SANTA RITA - CENTRO;Grande Poa
-402;SEARA - CENTRO;Chapec�
-403;S�O MIGUEL DO IGUA�U - CENTRO;Cascavel
-404;CAXIAS DO SUL - DEP�SITO LUIZ COVOLAN;Serra
-405;JOIA - CENTRO;Miss�es
-406;RIO NEGRINHO - CENTRO;Blumenau
-407;PLANALTO - CENTRO - PR;Pato Branco
-408;SANTA CLARA DO SUL - CENTRO;Lajeado
-409;IBIRAIARAS - CENTRO;Lajeado
-410;SANTA CEC�LIA - CENTRO;Lages
-411;URUSSANGA - CENTRO;Criciuma
-412;ARROIO DOS RATOS - CENTRO;Dos Vales
-413;MONTENEGRO - TIMBA�VA;Dos Vales
-414;GOIOER� - CENTRO;Maringa
-415;S�O MATEUS DO SUL - CENTRO;Ponta Grossa
-416;LARANJEIRAS DO SUL - CENTRO;Pato Branco
-417;PARA�SO DO NORTE - CENTRO;Maringa
-418;TAQUARA - PETR�POLIS;Sinos-Litoral
-419;ABELARDO LUZ  - CENTRO;Chapec�
-420;ELDORADO - CENTRO;Umuarama
-421;ITAI�POLIS - CENTRO;Blumenau
-422;CAPIVARI DE BAIXO - CENTRO;Criciuma
-423;SALVADOR DO SUL - CENTRO;Lajeado
-424;S�O SEP� - DEP�SITO;Centro
-425;CAMPO MOUR�O -  MANOEL MENDES DE CAMARGO;Maringa
-426;MEDIANEIRA - CENTRO;Cascavel
-427;CAMBAR� DO SUL - CENTRO;Serra
-428;NOVA LONDRINA - CENTRO;Umuarama
-429;UMUARAMA - BAIRRO;Umuarama
-430;UMUARAMA - AV. PARANA;Umuarama
-431;CIDREIRA - CENTRO;Sinos-Litoral
-432;BRA�O DO NORTE - CENTRO;Criciuma
-433;CAFEL�NDIA - CENTRO;Cascavel
-435;BARRA DO RIBEIRO - CENTRO;Grande Poa
-436;CASCA - CENTRO;Lajeado
-437;P�ROLA - CENTRO;Umuarama
-438;PARANAVA� - AV. DISTRITO FEDERAL;Maringa
-439;ORTIGUEIRA - CENTRO;Ponta Grossa
-440;CIANORTE - ZONA DE ARMAZEM;Maringa
-441;TOLEDO - PEDRO ADAMS FILHO;Cascavel
-442;N. HAMBURGO-PEDRO ADAMS - JULIO DE CASTILHOS;Sinos-Litoral
-443;PALMITAL - CENTRO;Maringa
-444;TURVO - CENTRO;Criciuma
-445;CRISTAL - CENTRO;Sul
-446;CAMPO MOUR�O DEP�SITO;Maringa
-447;CANGU�U - DEP�SITO;Sul
-448;CURI�VA - CENTRO;Ponta Grossa
-449;CRUZEIRO DO SUL - CENTRO;Lajeado
-450; LAVRAS DO SUL  - CENTRO;Centro
-451;QUILOMBO - CENTRO;Chapec�
-452;PRUDENT�POLIS - AV. S�O JO�O;Ponta Grossa
-453;CHOPINZINHO - CENTRO;Pato Branco
-454;S�O LEOPOLDO - FEITORIA;Sinos-Litoral
-455;SIDER�POLIS - CENTRO;Criciuma
-456;PALMITOS - CENTRO;Chapec�
-457;IRINE�POLIS -  CENTRO;Blumenau
-458;CAPIT�O LE�NIDAS MARQUES - CENTRO;Cascavel
-459;RIO NEGRO -  CENTRO;Blumenau
-460;MUNDO NOVO - CENTRO;Umuarama
-461;GENERAL CARNEIRO - CENTRO;Pato Branco
-462;MORRO DA FUMA�A - CENTRO;Criciuma
-463;BARBOSA FERRAZ - CENTRO;Maringa
-464;GUARACIABA - CENTRO;Chapec�
-465;RIO AZUL - CENTRO;Ponta Grossa
-466;ARAPONGAS - AV. ARAPONGAS;Londrina
-467;PONTE SERRADA ;Chapec�
-468;CORB�LIA - ASSISTEC;Cascavel
-469;LEBON R�GIS - CENTRO;Lages
-470;REBOU�AS - CENTRO;Ponta Grossa
-471;TIBAGI - CENTRO;Ponta Grossa
-472;BOM RETIRO DO SUL - CENTRO;Lajeado
-473;HERVAL DOESTE - CENTRO;Lages
-474;TR�S BARRAS - CENTRO;Blumenau
-475;CASCAVEL - AVENIDA PRESIDENTE TANCREDO NEVES;Cascavel
-476;QUER�NCIA DO NORTE - CENTRO;Umuarama
-477;CIDADE GAUCHA - CENTRO;Umuarama
-478;LAPA - CENTRO;Ponta Grossa
-479;MALLET - CENTRO;Ponta Grossa
-480;NOVA AURORA - S�O JOSE;Cascavel
-481;TEUT�NIA - LANGUIRU;Lajeado
-482;ITAPIRANGA - CENTRO;Chapec�
-483;ALFREDO WAGNER - CENTRO;Lages
-484;CANGU�U - CONSELHEIRO BRUSQUE;Sul
-485;FOZ DO IGUA�U - JARDIM LANCASTER;Cascavel
-486;JAGUARUNA - CENTRO;Criciuma
-487;FRANCISCO BELTR�O  - PINHEIRINHO;Pato Branco
-489;PITANGA - CENTRO;Maringa
-490;AGUDOS DO SUL - CENTRO;Ponta Grossa
-491;S�O NICOLAU - CENTRO;Miss�es
-492;CUNHA PORA - CENTRO;Chapec�
-493;TUBAR�O - MARCOLINO MARTINS CABRAL;Criciuma
-494;OSORIO - COSTA GAMA;Sinos-Litoral
-495;ASTORGA - VILA SAMUEL;Maringa
-496;SANTA TEREZINHA DE ITAIPU - CENTRO;Cascavel
-498;IBAITI - CENTRO;Ponta Grossa
-499;NOVA LARANJEIRAS - CENTRO;Pato Branco
-500;S�O CARLOS -  CENTRO;Chapec�
-501;CASCAVEL - AVENIDA PAPAGAIOS;Cascavel
-502;PAI�ANDU - CENTRO;Maringa
-503;IPORA - CENTRO;Umuarama
-504;S�O JO�O DO IVA� - CENTRO;Maringa
-505;S�O JOS� DO CERRITO - CENTRO;Lages
-506;IBIPOR� -  AV. SANTOS DUMONT;Londrina
-507;SANTA IZABEL DO OESTE - CENTRO;Pato Branco
-508;CANELA - JO�O PESSOA;Serra
-509;SOMBRIO - CENTRO;Criciuma
-510;ALTO PARANA - JARDIM AMERICA;Maringa
-511;ALVORADA DO SUL - JARDIM JOSEFA ESPINOSA PALMA;Londrina
-512;CASTRO -  DR. JORGE XAVIER DA SILVA ;Ponta Grossa
-513;NOVA PRATA DO IGUA�U - CENTRO;Pato Branco
-514;CAMPINA DA LAGOA - CENTRO;Maringa
-515;PROGRESSO - CENTRO;Dos Vales
-516;BOQUEIR�O DO LE�O - CENTRO;Dos Vales
-517;PARANACITY - CENTRO;Maringa
-518;TEL�MACO BORBA - AV. PARAN�;Ponta Grossa
-519;TAPEJARA -  CENTRO - PR;Umuarama
-520;SANTO ANT�NIO DA PLATINA  - CENTRO;Londrina
-521;S�O BORJA DEP�SITO ;Fronteira
-522;CRICIUMA - SANTA LUZIA;Criciuma
-523;PALMEIRA - CENTRO;Ponta Grossa
-524;PRESIDENTE EPITACIO - CENTRO;Presidente Prudente
-525;IVAI - CENTRO;Ponta Grossa
-526;MISSAL - CENTRO;Cascavel
-527;SANTA MARIA - SALGADO FILHO;Centro
-528;ROLANDIA - MONTEIRO LOBATO;Londrina
-529;ERVAL SECO  - CENTRO;Norte
-530;TERRA ROXA -  CENTRO;Cascavel
-531;OSVALDO CRUZ - CENTRO;Presidente Prudente
-532;RONCADOR - CENTRO;Maringa
-534;FORQUILHINHA  - CENTRO;Criciuma
-535;JUNQUEIROPOLIS  - CENTRO;Presidente Prudente
-536;IMBITUVA - CENTRO;Ponta Grossa
-537;IPORA DO OESTE - CENTRO;Chapec�
-538;IBIRAMA  - CENTRO;Blumenau
-539;TAGUAI -  PEDRO ALCANTARA RIBEIRO;Presidente Prudente
-540;BASTOS - JARDIM CEREJEIRAS;Presidente Prudente
-541;CAARAP� - CENTRO;Umuarama
-542;NOVA VENEZA - CENTRO;Criciuma
-543;MANDAGUARI;Maringa
-544;LOANDA;Umuarama
-545;CRUZ MACHADO;Ponta Grossa
-546;POMERODE;Blumenau
-547;PIRAPOZINHO;Presidente Prudente
-548;JOAQUIM T�VORA;Londrina
-549;URUBICI;Lages
-550;CASCAVEL - PRUDENTE DE MORAES;Cascavel
-551;GUARANIA�U;Cascavel
-552;BAR�O DE COTEGIPE;Norte
-553;JACINTO MACHADO;Criciuma
-554;ARAPOTI;Ponta Grossa
-555;ITAQUIRA�;Umuarama
-556;BELA VISTA DO PARA�SO;Londrina
-557;F�TIMA DO SUL;Umuarama
-558;MANOEL RIBAS;Maringa
-559;IGARA�U DO TIET�;Presidente Prudente
-560;IVINHEMA;Umuarama
-561;JOA�ABA - DEP�SITO;Lages
-562;IN�CIO MARTINS;Ponta Grossa
-563;TERRA RICA;Umuarama
-564;ASSA�;Londrina
-565;MONTE CASTELO;Blumenau
-566;PIRA� DO SUL;Ponta Grossa
-567;AMAMBAI;Umuarama
-568;MONDA�;Chapec�
-569;RESERVA;Maringa
-570;CORN�LIO PROC�PIO;Londrina
-571;NOVA ANDRADINA;Umuarama
-572;CAMB�;Londrina
-573;SIQUEIRA CAMPOS;Ponta Grossa
-574;SERTAN�POLIS;Londrina
-575;S�O JO�O;Pato Branco
-576;URA�;Londrina
-577;SANTA MARIA DO OESTE;Maringa
-578;PRESIDENTE VENCESLAU;Presidente Prudente
-579;NAVIRA�;Umuarama
-580;CAPELA DE SANTANA;Sinos-Litoral
-581;IRANI;Chapec�
-582;JURANDA;Maringa
-583;TUPI PAULISTA;Presidente Prudente
-584;GAURAMA;Norte
-585;PANORAMA;Presidente Prudente
-586;JAPUR�;Maringa
-587;FOZ DO IGUA�U - PORTO MEIRA;Cascavel
-588;CANDIDO DE ABREU;Maringa
-589;SANTA CRUZ DE MONTE CASTELO;Umuarama
-590;CALIFORNIA;Londrina
-591;SANTA F�;Maringa
-592;SENG�S;Ponta Grossa
-593;GAR�A;Presidente Prudente
-594;ENGENHEIRO BELTR�O;Maringa
-595;MATEL�NDIA;Cascavel
-596;NOVA SANTA ROSA;Cascavel
-597;DESCANSO;Chapec�
-598;WENCESLAU BRAZ;Ponta Grossa
-599;I�ARA;Criciuma
-600;PEABIRU;Maringa
-601;PRIMEIRO DE MAIO ;Londrina
-602;SERT�O SANTANA;Grande Poa
-603;ARARUNA;Maringa
-604;BOM RETIRO;Lages
-606;DEOD�POLIS;Umuarama
-607;MOREIRA SALES;Umuarama
-608;PELOTAS - LARANJAL;Sul
-609;TIJUCAS DO SUL ;Ponta Grossa
-610;QUITANDINHA;Ponta Grossa
-611;BROCHIER;Dos Vales
-612;BOM PRINC�PIO ;Serra
-614;BATAGUASSU;Umuarama
-615;TUP�SSI;Cascavel
-616;CAMBIRA;Maringa
-618;PARA�SO DO SUL;Centro
-619;ITAIPUL�NDIA;Cascavel
-620;TR�S BARRAS DO PARAN�;Cascavel
-621;PALMITAL;Presidente Prudente
-622;IPIRANGA;Ponta Grossa
-623;VALE DO SOL;Dos Vales
-624;�GUA DOCE;Lages
-625;PIRAJU�;Presidente Prudente
-626;Capinzal;Lages
-627;Jesu�tas;Cascavel
-628;Centen�rio Do Sul;Londrina
-629;Agudos;Presidente Prudente
+FILIAL;REGIAO
+3;Noroeste
+4;Missoes
+5;Noroeste
+7;Noroeste
+8;Noroeste
+9;Noroeste
+10;Noroeste
+11;Missoes
+12;Noroeste
+13;Fronteira
+14;Noroeste
+15;Noroeste
+16;Noroeste
+17;Noroeste
+18;Norte
+19;Noroeste
+20;Missoes
+21;Noroeste
+22;Missoes
+23;Noroeste
+24;Missoes
+25;Norte
+26;Noroeste
+27;Norte
+29;Missoes
+30;Missoes
+31;Norte
+34;Noroeste
+35;Missoes
+36;Fronteira
+37;Noroeste
+38;Noroeste
+39;Missoes
+40;Chapeco
+41;Noroeste
+43;Fronteira
+44;Fronteira
+45;Centro
+46;Missoes
+47;Fronteira
+48;Chapeco
+49;Fronteira
+50;Fronteira
+51;Centro
+52;Missoes
+53;Norte
+55;Grande Poa
+56;Sinos-Litoral
+58;Noroeste
+59;Centro
+60;Missoes
+61;Missoes
+62;Missoes
+64;Centro
+65;Fronteira
+66;Grande Poa
+68;Noroeste
+69;Centro
+71;Missoes
+72;Missoes
+73;Norte
+75;Norte
+76;Missoes
+78;Sinos-Litoral
+80;Missoes
+81;Sul
+82;Sinos-Litoral
+83;Norte
+84;Sinos-Litoral
+85;Sul
+86;Fronteira
+88;Sul
+89;Sinos-Litoral
+90;Fronteira
+92;Centro
+93;Sul
+94;Norte
+95;Centro
+97;Grande Poa
+98;Serra
+99;Dos Vales
+101;Dos Vales
+102;Lajeado
+103;Sul
+104;Centro
+105;Sinos-Litoral
+106;Sinos-Litoral
+107;Grande Poa
+108;Sul
+109;Grande Poa
+110;Grande Poa
+111;Sinos-Litoral
+112;Fronteira
+113;Sinos-Litoral
+114;Centro
+115;Centro
+117;Sinos-Litoral
+118;Sinos-Litoral
+120;Fronteira
+121;Fronteira
+122;Norte
+123;Centro
+124;Sinos-Litoral
+126;Lajeado
+127;Lajeado
+128;Missoes
+129;Sinos-Litoral
+130;Centro
+131;Lajeado
+132;Lajeado
+133;Centro
+134;Serra
+135;Criciuma
+136;Serra
+137;Dos Vales
+138;Dos Vales
+139;Lajeado
+140;Lajeado
+141;Centro
+142;Centro
+143;Dos Vales
+144;Dos Vales
+145;Dos Vales
+146;Dos Vales
+147;Dos Vales
+148;Dos Vales
+149;Dos Vales
+151;Dos Vales
+152;Dos Vales
+153;Centro
+154;Dos Vales
+155;Lajeado
+156;Dos Vales
+159;Dos Vales
+160;Lajeado
+161;Lajeado
+166;Lajeado
+167;Serra
+169;Sinos-Litoral
+170;Centro
+171;Missoes
+172;Fronteira
+173;Sinos-Litoral
+174;Dos Vales
+175;Sinos-Litoral
+176;Noroeste
+177;Fronteira
+178;Serra
+179;Serra
+180;Sul
+181;Dos Vales
+182;Sul
+183;Serra
+184;Lajeado
+185;Serra
+186;Missoes
+187;Grande Poa
+188;Sul
+189;Serra
+190;Sul
+191;Sul
+192;Sinos-Litoral
+193;Serra
+194;Centro
+195;Sul
+196;Norte
+197;Norte
+198;Serra
+199;Lajeado
+201;Sinos-Litoral
+202;Serra
+204;Serra
+205;Grande Poa
+206;Serra
+207;Chapeco
+208;Chapeco
+209;Serra
+213;Norte
+215;Sul
+216;Centro
+217;Centro
+218;Serra
+219;Sul
+220;Chapeco
+221;Norte
+222;Lages
+223;Norte
+224;Norte
+225;Chapeco
+226;Centro
+227;Chapeco
+229;Grande Poa
+230;Grande Poa
+231;Lajeado
+232;Pato Branco
+233;Ponta Grossa
+234;Lages
+235;Chapeco
+236;Lages
+238;Cascavel
+239;Cascavel
+240;Pato Branco
+241;Norte
+244;Lages
+245;Pato Branco
+246;Lages
+247;Sul
+248;Pato Branco
+249;Blumenau
+250;Lages
+252;Lages
+253;Lages
+255;Sinos-Litoral
+256;Pato Branco
+257;Serra
+258;Grande Poa
+259;Grande Poa
+260;Grande Poa
+261;Fronteira
+262;Grande Poa
+263;Grande Poa
+264;Grande Poa
+265;Sul
+266;Grande Poa
+267;Grande Poa
+268;Lages
+269;Blumenau
+270;Sul
+271;Fronteira
+272;Lajeado
+273;Blumenau
+274;Pato Branco
+275;Chapeco
+276;Blumenau
+277;Dos Vales
+278;Lajeado
+280;Noroeste
+281;Chapeco
+282;Blumenau
+283;Lages
+284;Serra
+285;Sinos-Litoral
+286;Norte
+287;Centro
+288;Noroeste
+289;Serra
+290;Lages
+291;Sul
+292;Lajeado
+293;Sul
+294;Blumenau
+295;Dos Vales
+296;Norte
+297;Norte
+298;Lajeado
+299;Grande Poa
+300;Sul
+301;Grande Poa
+302;Grande Poa
+303;Centro
+304;Centro
+305;Norte
+306;Serra
+307;Sinos-Litoral
+308;Noroeste
+309;Fronteira
+310;Lajeado
+311;Lajeado
+312;Noroeste
+313;Centro
+314;Serra
+315;Norte
+316;Missoes
+317;Grande Poa
+318;Chapeco
+319;Serra
+320;Lajeado
+321;Lajeado
+322;Dos Vales
+323;Norte
+324;Missoes
+325;Norte
+326;Sinos-Litoral
+327;Pato Branco
+328;Pato Branco
+329;Cascavel
+330;Cascavel
+331;Fronteira
+333;Fronteira
+334;Criciuma
+335;Grande Poa
+336;Centro
+337;Criciuma
+338;Criciuma
+339;Chapeco
+340;Serra
+341;Sul
+342;Cascavel
+343;Serra
+344;Fronteira
+345;Pato Branco
+346;Centro
+347;Fronteira
+349;Grande Poa
+350;Pato Branco
+351;Sul
+352;Criciuma
+353;Pato Branco
+354;Pato Branco
+355;Lajeado
+356;Pato Branco
+357;Pato Branco
+358;Sinos-Litoral
+359;Lages
+360;Grande Poa
+361;Sul
+362;Cascavel
+363;Blumenau
+364;Norte
+365;Blumenau
+366;Missoes
+367;Pato Branco
+368;Pato Branco
+369;Blumenau
+370;Pato Branco
+371;Noroeste
+372;Cascavel
+373;Criciuma
+374;Noroeste
+375;Dos Vales
+376;Criciuma
+377;Chapeco
+378;Chapeco
+379;Noroeste
+380;Blumenau
+381;Pato Branco
+382;Serra
+383;Dos Vales
+385;Missoes
+386;Umuarama
+387;Blumenau
+388;Sinos-Litoral
+389;Norte
+390;Blumenau
+391;Cascavel
+393;Sul
+394;Umuarama
+396;Pato Branco
+397;Norte
+398;Missoes
+399;Blumenau
+400;Blumenau
+401;Grande Poa
+402;Chapeco
+403;Cascavel
+404;Serra
+405;Missoes
+406;Blumenau
+407;Pato Branco
+408;Lajeado
+409;Lajeado
+410;Lages
+411;Criciuma
+412;Dos Vales
+413;Dos Vales
+414;Maringa
+415;Ponta Grossa
+416;Pato Branco
+417;Maringa
+418;Sinos-Litoral
+419;Chapeco
+420;Umuarama
+421;Blumenau
+422;Criciuma
+423;Lajeado
+424;Centro
+425;Maringa
+426;Cascavel
+427;Serra
+428;Umuarama
+429;Umuarama
+430;Umuarama
+431;Sinos-Litoral
+432;Criciuma
+433;Cascavel
+435;Grande Poa
+436;Lajeado
+437;Umuarama
+438;Maringa
+439;Ponta Grossa
+440;Maringa
+441;Cascavel
+442;Sinos-Litoral
+443;Maringa
+444;Criciuma
+445;Sul
+446;Maringa
+447;Sul
+448;Ponta Grossa
+449;Lajeado
+450;Centro
+451;Chapeco
+452;Ponta Grossa
+453;Pato Branco
+454;Sinos-Litoral
+455;Criciuma
+456;Chapeco
+457;Blumenau
+458;Cascavel
+459;Blumenau
+460;Umuarama
+461;Pato Branco
+462;Criciuma
+463;Maringa
+464;Chapeco
+465;Ponta Grossa
+466;Londrina
+467;Chapeco
+468;Cascavel
+469;Lages
+470;Ponta Grossa
+471;Ponta Grossa
+472;Lajeado
+473;Lages
+474;Blumenau
+475;Cascavel
+476;Umuarama
+477;Umuarama
+478;Ponta Grossa
+479;Ponta Grossa
+480;Cascavel
+481;Lajeado
+482;Chapeco
+483;Lages
+484;Sul
+485;Cascavel
+486;Criciuma
+487;Pato Branco
+489;Maringa
+490;Ponta Grossa
+491;Missoes
+492;Chapeco
+493;Criciuma
+494;Sinos-Litoral
+495;Maringa
+496;Cascavel
+498;Ponta Grossa
+499;Pato Branco
+500;Chapeco
+501;Cascavel
+502;Maringa
+503;Umuarama
+504;Maringa
+505;Lages
+506;Londrina
+507;Pato Branco
+508;Serra
+509;Criciuma
+510;Maringa
+511;Londrina
+512;Ponta Grossa
+513;Pato Branco
+514;Maringa
+515;Dos Vales
+516;Dos Vales
+517;Maringa
+518;Ponta Grossa
+519;Umuarama
+520;Londrina
+521;Fronteira
+522;Criciuma
+523;Ponta Grossa
+524;Presidente Prudente
+525;Ponta Grossa
+526;Cascavel
+527;Centro
+528;Londrina
+529;Norte
+530;Cascavel
+531;Presidente Prudente
+532;Maringa
+534;Criciuma
+535;Presidente Prudente
+536;Ponta Grossa
+537;Chapeco
+538;Blumenau
+539;Presidente Prudente
+540;Presidente Prudente
+541;Umuarama
+542;Criciuma
+543;Maringa
+544;Umuarama
+545;Ponta Grossa
+546;Blumenau
+547;Presidente Prudente
+548;Londrina
+549;Lages
+550;Cascavel
+551;Cascavel
+552;Norte
+553;Criciuma
+554;Ponta Grossa
+555;Umuarama
+556;Londrina
+557;Umuarama
+558;Maringa
+559;Presidente Prudente
+560;Umuarama
+561;Lages
+562;Ponta Grossa
+563;Umuarama
+564;Londrina
+565;Blumenau
+566;Ponta Grossa
+567;Umuarama
+568;Chapeco
+569;Maringa
+570;Londrina
+571;Umuarama
+572;Londrina
+573;Ponta Grossa
+574;Londrina
+575;Pato Branco
+576;Londrina
+577;Maringa
+578;Presidente Prudente
+579;Umuarama
+580;Sinos-Litoral
+581;Chapeco
+582;Maringa
+583;Presidente Prudente
+584;Norte
+585;Presidente Prudente
+586;Maringa
+587;Cascavel
+588;Maringa
+589;Umuarama
+590;Londrina
+591;Maringa
+592;Ponta Grossa
+593;Presidente Prudente
+594;Maringa
+595;Cascavel
+596;Cascavel
+597;Chapeco
+598;Ponta Grossa
+599;Criciuma
+600;Maringa
+601;Londrina
+602;Grande Poa
+603;Maringa
+604;Lages
+606;Umuarama
+607;Umuarama
+608;Sul
+609;Ponta Grossa
+610;Ponta Grossa
+611;Dos Vales
+612;Serra
+614;Umuarama
+615;Cascavel
+616;Maringa
+618;Centro
+619;Cascavel
+620;Cascavel
+621;Presidente Prudente
+622;Ponta Grossa
+623;Dos Vales
+624;Lages
+625;Presidente Prudente
+626;Lages
+627;Cascavel
+628;Londrina
+629;Presidente Prudente
