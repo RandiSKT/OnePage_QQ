@@ -17,9 +17,11 @@ const Cartao = () => {
   const [metaFilial, setMetaFilial] = useState();
   const [realFilial, setRealFilial] = useState();
   const [opFilial, setOpFilial] = useState();
+  const [indicador, setIndicator] = useState("Cartões Novos");
+  const [file, setFile] = useState("CN.csv");
 
   useEffect(() => {
-    const csvFileUrl = process.env.PUBLIC_URL + "/Ativacao.csv";
+    const csvFileUrl = process.env.PUBLIC_URL + file;
     const readCSVFile = async () => {
       try {
         const response = await fetch(csvFileUrl);
@@ -43,7 +45,7 @@ const Cartao = () => {
       }
     };
     readCSVFile();
-  }, []);
+  }, [file]);
 
   useEffect(() => {
     // Filtrar os dados conforme a região e a filial selecionada
@@ -60,10 +62,15 @@ const Cartao = () => {
       const primeiraLinhaReg = filtroReg[0];
       setMetaReg(primeiraLinhaReg.MetaReg);
       setRealReg(primeiraLinhaReg.RealizadoReg);
-      const countOpReg = filtroReg.reduce((count, linha) => {
-        return linha.Ativou === "Oportunidade" ? count + 1 : count;
-      }, 0);
-      setOpReg(countOpReg);
+      if (indicador === "Ativações") {
+        const countOpReg = filtroReg.reduce((count, linha) => {
+          return linha.Ativou === "Oportunidade" ? count + 1 : count;
+        }, 0);
+        setOpReg(countOpReg);
+      } else {
+        const countOpReg = filtroReg.length;
+        setOpReg(countOpReg);
+      }
     } else {
       // Define os estados como vazios se não houver dados para a região selecionada
       setMetaReg("");
@@ -73,19 +80,24 @@ const Cartao = () => {
 
     if (filtroFilial.length > 0) {
       const primeiraLinhaFilial = filtroFilial[0];
-      setMetaFilial(primeiraLinhaFilial['Meta']);
+      setMetaFilial(primeiraLinhaFilial["Meta"]);
       setRealFilial(primeiraLinhaFilial.Realizado);
-      const countOpFilial = filtroFilial.reduce((count, linha) => {
-        return linha.Ativou === "Oportunidade" ? count + 1 : count;
-      }, 0);
-      setOpFilial(countOpFilial);
+      if (indicador === "Ativações") {
+        const countOpFilial = filtroFilial.reduce((count, linha) => {
+          return linha.Ativou === "Oportunidade" ? count + 1 : count;
+        }, 0);
+        setOpFilial(countOpFilial);
+      } else {
+        const countOpFilial = filtroFilial.length;
+        setOpFilial(countOpFilial);
+      }
     } else {
       // Define os estados como vazios se não houver dados para a filial selecionada
       setMetaFilial("");
       setRealFilial("");
       setOpFilial(0);
     }
-  }, [selectedRegion, selectedBranch, dados]);
+  }, [selectedRegion, selectedBranch, dados, indicador]);
 
   const handleRegionChange = (region) => {
     setSelectedRegion(region);
@@ -95,36 +107,51 @@ const Cartao = () => {
     setSelectedBranch(branch);
   };
 
+  const handleIndicatorChange = (ind) => {
+    setIndicator(ind);
+    if (ind === "Ativações") {
+      setFile("Ativacao.csv");
+    } else {
+      setFile("CN.csv");
+    }
+  };
+
   return (
     <div>
       <h1>Cartão</h1>
       <div className="dashboard">
         <NavBar></NavBar>
-        <Indicador />
+        <Indicador onIndicatorChange={handleIndicatorChange} />
         <Select
           onRegionChange={handleRegionChange}
           onBranchChange={handleBranchChange}
         />
         <ProgressBar
-          title="Meta de Ativações Filial"
+          title={"Meta de " + indicador + " Filial: " + selectedBranch}
           current={realFilial}
           goal={metaFilial}
           oportunities={opFilial}
         />
         <ProgressBar
-          title="Meta de Ativações Região"
+          title={"Meta de " + indicador + " Região: " + selectedRegion}
           current={realReg}
           goal={metaReg}
           oportunities={opReg}
         />
         <div className="center-horizontally">
           <DownloadCsv
-            filteredData={dados.filter((linha) => linha.REGIÃO === selectedRegion)}
+            indicador={indicador}
+            filteredData={dados.filter(
+              (linha) => linha.REGIÃO === selectedRegion
+            )}
             title="Baixar Oportunidades da Região"
           />
           <DownloadCsv
+            indicador={indicador}
             title="Baixar Oportunidades da Filial"
-            filteredData={dados.filter((linha) => linha.FILIAL === selectedBranch)}
+            filteredData={dados.filter(
+              (linha) => linha.FILIAL === selectedBranch
+            )}
           />
         </div>
       </div>

@@ -8,10 +8,14 @@ function DownloadCsv({ title, filteredData, indicador }) {
       console.warn("Nenhum dado filtrado para baixar.");
       return;
     }
-
+    var csvData = ""
     // Crie um CSV a partir dos dados filtrados
-    const csvData = "FILIAL;DT_CADASTRO;CONTA;Ativou;Tempo;REGIÃO\n" + filteredData.map((linha) => `${linha.FILIAL};${linha.DT_CADASTRO};${linha.CONTA};${linha.Ativou};${linha.Tempo};${linha.REGIÃO}`).join("\n");
-
+    if (indicador==="Ativações"){
+      csvData = "FILIAL;DT_CADASTRO;CONTA;Ativou;Tempo;REGIÃO\n" + filteredData.map((linha) => `${linha.FILIAL};${linha.DT_CADASTRO};${linha.CONTA};${linha.Ativou};${linha.Tempo};${linha.REGIÃO}`).join("\n");
+    } else {
+      csvData = "ANOMES;CPF;DATA_RESUMIDO;FILIAL;REGIÃO\n" + filteredData.map((linha) => `${linha.ANOMES};${linha.CPF};${linha.DATA_RESUMIDO};${linha.FILIAL};${linha.REGIÃO};`).join("\n");
+    }
+  
     // Crie um objeto Blob para representar o arquivo CSV
     const blob = new Blob([csvData], { type: "text/csv;charset=utf-8;" });
 

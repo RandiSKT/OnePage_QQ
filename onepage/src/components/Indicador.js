@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 import './NavBar.css'
 
-const Indicador = () => {
+const Indicador = ({ onIndicatorChange }) => {
   // Defina o estado inicial com "Cartões Novos" selecionados
   const [selectedIndicador, setSelectedIndicador] = useState("Cartões Novos");
 
   // Função para lidar com a mudança na seleção
-  const handleIndicadorChange = (event) => {
-    setSelectedIndicador(event.target.value);
+  const handleIndicadorChange = (e) => {
+    setSelectedIndicador(e.target.value);
+    onIndicatorChange(e.target.value)
   };
 
   return (
