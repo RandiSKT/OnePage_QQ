@@ -35,12 +35,16 @@ const Cartao = () => {
             const data = result.data;
             // Filtrar as linhas em que a coluna 'região' é igual a 'Noroeste' e 'Filial' é igual a '3'
             const filtroReg = data.filter((linha) => {
-              return (
-                linha.REGIÃO === selectedRegion
-              );
+              return linha.REGIÃO === selectedRegion;
             });
-            setDadosFiltrados(filtroReg)
-
+            setDadosFiltrados(filtroReg);
+            const primeiraLinha = filtroReg[0]; // Obtém a primeira linha
+            setMetaReg(primeiraLinha.MetaReg);
+            setRealReg(primeiraLinha.RealizadoReg);
+            const countOpReg = filtroReg.reduce((count, linha) => {
+              return linha.Ativou === "Oportunidade" ? count + 1 : count;
+            }, 0);
+            setOpReg(countOpReg);
             // 'dadosFiltrados' agora contém apenas as linhas que atendem à condição
             console.log(dadosFiltrados);
           },
@@ -71,18 +75,16 @@ const Cartao = () => {
             const data = result.data;
             // Filtrar as linhas em que a coluna 'região' é igual a 'Noroeste' e 'Filial' é igual a '3'
             const filtroFilial = data.filter((linha) => {
-              return (
-                linha.FILIAL === selectedBranch
-              );
+              return linha.FILIAL === selectedBranch;
             });
-            setDadosFiltrados2(filtroFilial)
-            const filtroOp = data.filter((linha) =>{
-              return(
-              linha.FILIAL === selectedBranch &&
-              linha.Ativou ==="Oportunidade"
-              );
-            });
-            setOpFilial(filtroOp.length)
+            setDadosFiltrados2(filtroFilial);
+            const primeiraLinha = filtroFilial[0]; // Obtém a primeira linha
+            setMetaFilial(primeiraLinha['Meta']);
+            setRealFilial(primeiraLinha.Realizado);
+            const countOpFilial = filtroFilial.reduce((count, linha) => {
+              return linha.Ativou === "Oportunidade" ? count + 1 : count;
+            }, 0);
+            setOpFilial(countOpFilial);
           },
           error: function (error) {
             console.error("Error parsing CSV:", error);
@@ -97,13 +99,12 @@ const Cartao = () => {
 
   const handleRegionChange = (region) => {
     setSelectedRegion(region);
-    // Coloque aqui a lógica para filtrar os dados com base na nova seleção de região
   };
 
   const handleBranchChange = (branch) => {
     setSelectedBranch(branch);
-    // Coloque aqui a lógica para filtrar os dados com base na nova seleção de filial
   };
+
   return (
     <div>
       <h1>Cartão</h1>
@@ -116,13 +117,13 @@ const Cartao = () => {
         />
         <ProgressBar
           title="Meta de Ativações Filial"
-          current={selectedBranch}
+          current={realFilial}
           goal={metaFilial}
           oportunities={opFilial}
         />
         <ProgressBar
           title="Meta de Ativações Região"
-          current={selectedRegion}
+          current={realReg}
           goal={metaReg}
           oportunities={opReg}
         />

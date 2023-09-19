@@ -9,6 +9,7 @@ function Select({ onRegionChange, onBranchChange }) {
   const [filteredBranches, setFilteredBranches] = useState([]);
   const [selectedBranch, setSelectedBranch] = useState("");
 
+
   useEffect(() => {
     // Leitura do arquivo CSV das regiões e filiais
     Papa.parse("/filiais_regiao.csv", {

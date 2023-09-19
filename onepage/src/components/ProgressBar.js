@@ -13,7 +13,7 @@ function ProgressBar({ title, current, goal, oportunities }) {
         <div
           className="progress"
           style={{ width: progressBarWidth }}
-        ></div>
+        >{(current/goal*100).toFixed()}%</div>
       </div>
       <div className="progress-details">
         <p><strong>{`Meta: ${goal}`}</strong></p>

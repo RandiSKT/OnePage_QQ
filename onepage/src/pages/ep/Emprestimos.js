@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "../../components/NavBar.js";
 
+
 const Emprestimos = () => {
   return (
     <div>
