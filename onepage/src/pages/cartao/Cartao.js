@@ -121,6 +121,7 @@ const Cartao = () => {
       <h1>Cartão</h1>
       <div className="dashboard">
         <NavBar></NavBar>
+        <br />
         <Indicador onIndicatorChange={handleIndicatorChange} />
         <Select
           onRegionChange={handleRegionChange}
