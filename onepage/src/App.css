@@ -36,3 +36,12 @@ h1 {
   margin: 0 auto; /* Centralizar horizontalmente */
   border: dashed;
 }
+
+.Embed-container {
+  height: 500px;
+  width: 800px;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0;
+  text-align: center;
+}

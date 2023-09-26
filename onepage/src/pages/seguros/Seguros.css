@@ -1,0 +1,14 @@
+.Embed-container {
+    height: 500px;
+    width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: auto 0;
+  }
+
+.powerbi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
